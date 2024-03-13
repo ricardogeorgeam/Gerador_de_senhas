@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senhas</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+<body>
+<div>
+ <header>
+
+     <h1 id="titulo">Gere senhas fortes e seguras   <br> em um clique</h1>
+
+     <div id="janela">
+         <h1 id="janh1">Personalize sua senha</h1>
+         <div id="counter">
+             <div id="botao-seletor">
+                 <h1 id="botaoh1"> Número de caracteres na senha</h1>
+                 <div>
+                     <button id="plus" class="count-button">+</button>
+                     <span id="value">0 </span>
+                     <button id="minus" class="count-button">-</button>
+                 </div>
+             </div>
+             <div id="checkbox">
+                 <div class="form-check">
+                     <input class="form-check-input" type="checkbox" value="" id="uppercaseCheckbox">
+                     <label class="form-check-label" for="uppercaseCheckbox">
+                         Letra maiúscula
+                     </label>
+                 </div>
+                 <div class="form-check">
+                     <input class="form-check-input" type="checkbox" value="" id="lowercaseCheckbox">
+                     <label class="form-check-label" for="lowercaseCheckbox">
+                         Letra minúscula
+                     </label>
+                 </div>
+                 <div class="form-check">
+                     <input class="form-check-input" type="checkbox" value="" id="numbersCheckbox">
+                     <label class="form-check-label" for="numbersCheckbox">
+                         Números
+                     </label>
+                 </div>
+                 <div class="form-check">
+                     <input class="form-check-input" type="checkbox" value="" id="symbolsCheckbox">
+                     <label class="form-check-label" for="symbolsCheckbox">
+                         Símbolos
+                     </label>
+                 </div>
+
+             </div>
+             <button type="button" class="btn btn-primary" id="botao-generate">Gerar Senha</button>
+
+     </div>
+
+
+
+         <div id="janela2">
+             <div id="aviso-copia" class="aviso"></div>
+             <div id="imagens">
+                 <button id="buttonimg"><img id="img1" src="./Media/copy.png"></button>
+                 <button id="buttonimg2" ><img id="img2" src="./Media/refresh-cw.png"></button>
+             </div>
+             <input id="inputpasswordID" type="text">
+             </div>
+         </div>
+ </header>
+
+
+
+    <script src="./code.js"></script>
+</body>
+</html>

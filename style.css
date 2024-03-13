@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+*{
+    font-family: "Poppins";
+}
+/* Restante do seu CSS */
+
+#titulo {
+    font-size: 48px;
+    color: white;
+    position: absolute;
+    top: 9vw;
+    left: 7vw;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    background-color: #618EE7 !important;
+}
+
+#janela {
+    width: 37vw;
+    height: 38vw;
+    background-color: white;
+    position: absolute;
+    top: 20vw;
+    left: 7vw;
+    border-radius: 1vw;
+    border: 4px solid #EAEAEA;
+}
+
+#janh1 {
+    position: absolute;
+    top: 2vw;
+    left: 2vw;
+    font-size: 30px; /* Adicionei um tamanho de fonte ao h1 dentro da div */
+}
+
+#botao-seletor {
+    position: absolute;
+    top: 8vw; /* Ajustei a posição do seletor de botões */
+    left: 2vw;
+}
+
+#botaoh1 {
+    font-size: 19px;
+    font-weight: normal;
+}
+
+
+.count-button {
+    background-color: #3b5998; /* Azul mais escuro */
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.count-button:hover {
+    background-color: #293b6b; /* Tom mais escuro ao passar o mouse */
+}
+#checkbox {
+    position: absolute;
+    top: 18vw;
+    left: 2vw;
+    display: flex;
+    flex-direction: column;
+
+}
+.form-check {
+    margin-bottom: 90px; /* Adicionei um espaçamento entre cada checkbox e label */
+}
+#botao-generate{
+    position: absolute;
+    top:31vw ;
+    left:7vw ;
+    width:20vw ;
+    background-color: #2B9F96 !important;
+    border: none;
+}
+#janela2{
+    width: 37vw;
+    height: 8vw;
+    background-color: white;
+    position: absolute;
+    top: 1vw;
+    left: 40vw;
+    border-radius: 1vw;
+    border: 4px solid #EAEAEA;
+}
+#imagens{
+    display: flex;
+    position: absolute;
+    top: 2.6vw;
+}
+
+#img1{
+    width: 2vw;
+    height: 2vw;
+
+}
+#img2{
+    width: 2vw;
+    height: 2vw;
+}
+#buttonimg{
+
+}
+#imagens {
+    display: flex;
+    justify-content: space-between; /* Distribui os botões uniformemente */
+}
+
+#buttonimg,
+#buttonimg2 {
+    background-color: white; /* Cor de fundo dos botões */
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+
+}
+
+#buttonimg2 {
+    margin-left: 10px; /* Adiciona um espaço entre os botões */
+}
+
+#img1,
+#img2 {
+    width: 24px; /* Ajusta o tamanho das imagens conforme necessário */
+    height: 24px;
+}
+#buttonimg:hover,
+#buttonimg2:hover {
+    background-color: #293b6b; /* Cor de fundo ao passar o mouse */
+}
+
+#buttonimg,
+#buttonimg2 {
+    transition: background-color 0.3s ease; /* Adiciona um efeito de transição suave */
+}
+#buttonimg{
+    position: absolute;
+    left: 30vw;
+}
+#buttonimg2{
+    position: absolute;
+    left: 25vw;
+}
+#inputpasswordID{
+    position: absolute;
+    top: 2vw;
+    left: 0.6vw;
+    font:  bold 26px arial, sans-serif;
+}
+#inputpasswordID{
+    outline: none;
+    accent-color:none;
+    border-color: none;
+}
+.aviso {
+    position: absolute;
+    top: 8vw;
+    left: 30vw;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: none; /* Inicialmente oculto */
+}
+
+
